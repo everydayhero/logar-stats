@@ -2,6 +2,7 @@
   "name": "logar-stats",
   "version": "1.0.0",
   "description": "Cloudwatch metrics for an Elasticsearch cluster using Lambda",
+  "homepage": "https://github.com/everydayhero/logar-stats",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
