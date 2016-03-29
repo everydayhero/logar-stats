@@ -1,4 +1,3 @@
-require("dotenv-safe").load({ sample: "./.env.requirements" });
 require("es6-promise").polyfill();
 
 var fetch = require("node-fetch");
