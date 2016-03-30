@@ -1,6 +1,6 @@
 {
   "name": "logar-stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cloudwatch metrics for an Elasticsearch cluster using Lambda",
   "homepage": "https://github.com/everydayhero/logar-stats",
   "main": "index.js",
