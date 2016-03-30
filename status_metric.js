@@ -16,7 +16,7 @@ StatusMetric.prototype.toMetricData = function(data) {
   var value = this.getValue(data);
 
   return statuses.map(function(status) {
-    var metricValue = status === values[0] ? 1 : 0;
+    var metricValue = status === value ? 1 : 0;
     var metricName = name + (status[0].toUpperCase() + status.substr(1));
 
     return {
