@@ -22,12 +22,6 @@ StatusMetric.prototype.toMetricData = function(data) {
     return {
       MetricName: metricName,
       Dimensions: [],
-      StatisticValues: {
-        Maximum: 0.0,
-        Minimum: 0.0,
-        SampleCount: 0.0,
-        Sum: 0.0
-      },
       Timestamp: timestamp,
       Unit: type,
       Value: metricValue

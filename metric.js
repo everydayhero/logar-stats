@@ -17,12 +17,6 @@ Metric.prototype.toMetricData = function(data) {
     return {
       MetricName: name,
       Dimensions: [],
-      StatisticValues: {
-        Maximum: 0.0,
-        Minimum: 0.0,
-        SampleCount: 0.0,
-        Sum: 0.0
-      },
       Timestamp: new Date(),
       Unit: type,
       Value: value
